@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashionova-payment-section</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  
+    <main>
+        <form action="" method="post" >
+<!--  -->
+
+<div class="container">
+  <div class="left">
+      <div class="bank">
+          <h4 class="bank-offer">Bank Offer</h4>
+
+          <ul id="text">
+            <li>
+              10% instant discount on IDFC first Bank Cards on a minimum spend
+              of rup 2,500.TCA
+            </li>
+            <!-- <span id="points">........</span> -->
+            <span id="moreText">
+              <li>
+                10% cashback upto Rs 100 on Paytm pospaid transcation on a min
+                spend of Rs 1000 .TCA
+              </li>
+              <li>
+                5% unlimited cashback on Flipkart Axis bank Credit card .TCA
+              </li>
+              <li>
+                15% cashback upto Rs 150 on FreeCharge Paylater Transaction .TCA
+              </li>
+              <li>
+                10% Cashback upto Rs 200 on OLA money postpaid or wallet
+                transaction on a min spend of Rs 1000 .TCA
+              </li>
+              <li>
+                Upto Rs 500 cashback on mobikwick wallet transcation on a min
+                spend of Rs.999 use code ullukapatha on Mobikwick.TCA
+              </li>
+              <li>
+                5% Cashback upto Rs 150 on a minnium spend of Rs 1500 with
+                payzap.TCA
+              </li>
+            </span>
+          </ul>
+          <!-- <button onclick="toggleText()" id="textButton">show more</button> -->
+    </div>
+    <p class="p">Complete Purchase</p>
+    <div class="debit">
+        <p class="creditdebit">CREDIT/ DEBIT CARD</p>
+        <input type="text" id="cardnum" placeholder="Card Number" required minlength="12" maxlength="12">
+        <input type="text" id="cardname" placeholder="Name on Card" required>
+        <div class="third">
+            <input type="text" id="valid" placeholder="Valid Thru(MM/YY)" required>
+            <input type="text" id="cvv" placeholder="CVV" required minlength="5" maxlength="5">
+        </div>
+        <!-- <button class="paynow">Pay now</button> -->
+        <input type="submit" value="Pay now" class="submit">
+    </div>
+</div>
+
+
+<!--  -->
+        </form>
+        
+    </main>
+    
+
+    <script src="index.js"></script>
+    <script src="payment.js"></script>
+    
+</body>
+</html>
